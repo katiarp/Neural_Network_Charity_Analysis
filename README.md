@@ -74,7 +74,7 @@ I ran the model without modifying the initial structure and it achieved 72% accu
 
 ![Image_name](resources/accuracy_optimization.png)
 
-The following plot shows that the model achieved the maximum accuracy at around 23 epochs. 
+The following plot shows that the model achieved the maximum accuracy at around 30 epochs. 
 
 ![Image_name](resources/accuracy_plot_optimization4.png)
 
@@ -86,6 +86,6 @@ I attempted to improve the accuracy to achieve the 75% target by increasing the 
 ---
 I believe that the neural network model could be improved to achieve higher accuracy; however, other machine learning models could be tested to see if they achieve different and better results. One recommendation is a two-class logistic regression since they are fast to train. Other models such as a two-class decision tree or boosted decision trees could also be used. 
 
-One advantage of [boosted decision trees](https://neptune.ai/blog/gradient-boosted-decision-trees-guide) is that they improve their accuracy by relying on weak learners; the final result comes from the votes from all those learners. They are also fast to train and provide great accuracy. I think that a boosted decision tree should be the next step in building the binary classifier that will predict successful applicants. 
+One advantage of [boosted decision trees](https://neptune.ai/blog/gradient-boosted-decision-trees-guide) is that they improve their accuracy by relying on weak learners; the final result comes from the votes of all the learners. They are also fast to train and provide great accuracy. I think that a boosted decision tree should be the next step in building the binary classifier that will predict successful applicants. 
 
 
